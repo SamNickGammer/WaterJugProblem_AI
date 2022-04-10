@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Jug Visualization</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="homeContainer">
+        <div class="header">
+            <h1>Empty Mug Problems</h1>
+            <h3>2 Mug Problem</h3>
+        </div>
+        <div class="container">
+            <div class="controlPanal">
+                <input type="number" id="controlCont1" placeholder="Size of 1st container">
+                <input type="number" id="controlCont2" placeholder="Size of 2nd container">
+                <input type="number" id="controlInit1" placeholder="Inital of 1st Mug">
+                <input type="number" id="controlInit2" placeholder="Inital of 2nd Mug">
+                <button id="submit" class="doItYourSelf">Do Your Self</button>
+            </div>
+            <div class="mugArea">
+                <div class="mugSection">
+                    <div class="control alignFlex-end">
+                        <div class="section fillSectionA">Fill This Jar</div>
+                        <div class="section tranferAtoB">Transfer To other Jar</div>
+                        <div class="section emptySectionA">Empty This Jar</div>
+                    </div>
+                    <div class="containerMug margin-left">
+                        <div class="mug1"></div>
+                        <div class="contText">
+                            <span class="displayFirst"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mugSection">
+                    <div class="containerMug margin-right">
+                        <div class="mug2">
+                        </div>
+                        <div class="contText">
+                            <span class="displaySec"></span>
+                        </div>
+                    </div>
+                    <div class="control alignFlex-start">
+                        <div class="section fillSectionB">Fill This Jar</div>
+                        <div class="section tranferBtoA">Transfer To other Jar</div>
+                        <div class="section emptySectionB">Empty This Jar</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="completeContainer displayNone">
+            <div class="complete">
+                <div class="boom">Boom</div>
+                <button class="retry">Retry</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
